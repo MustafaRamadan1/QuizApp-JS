@@ -58,8 +58,9 @@ next_btn.addEventListener("click", function () {
   } else {
     document.getElementById("answer-buttons").style.display = "none";
     question.innerText = "Your Result";
+    question.style.textAlign = "center";
     result.innerText = `your score is ${score} of 10`; 
-    scoreElement.style.display = "block";
+    scoreElement.style.display = "flex";
     next_btn.style.display = "none";
     
   }
